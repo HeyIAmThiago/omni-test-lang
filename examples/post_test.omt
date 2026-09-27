@@ -1,5 +1,0 @@
-test "criacao de usuario retorna 201 e nome correto":
-    let payload: Json = {"name": "Hugo Andrade", "role": "QA Engineer", "active": true}
-    let response: Response = POST "/users" payload
-    assert response.status == 201
-    assert response.body.name == "Hugo Andrade"

@@ -1,3 +1,0 @@
-test "declaracao de variavel tipada":
-    let statusEsperado: Int = 200
-    assert statusEsperado == 200

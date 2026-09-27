@@ -1,3 +1,0 @@
-test "indentacao quebrada":
-    let a: Int = 1
-  assert a == 1

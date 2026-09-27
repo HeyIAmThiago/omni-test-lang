@@ -1,3 +1,0 @@
-test "health check retorna 200":
-    let response: Response = GET "/health"
-    assert response.status == 200

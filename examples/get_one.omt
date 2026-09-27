@@ -1,0 +1,3 @@
+test "busca um post":
+    let response: Response = GET "https://jsonplaceholder.typicode.com/posts/1"
+    assert response.status == 200

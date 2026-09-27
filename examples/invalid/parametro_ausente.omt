@@ -1,3 +1,0 @@
-test "parametro ausente no POST":
-    let response: Response = POST "/users"
-    assert response.status == 201

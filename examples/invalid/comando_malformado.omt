@@ -1,3 +1,0 @@
-test "comando malformado":
-    let a Int = 5
-    assert a == 5

@@ -1,0 +1,3 @@
+test "lista todos os posts":
+    let response: Response = GET "https://jsonplaceholder.typicode.com/posts"
+    assert response.status == 200
