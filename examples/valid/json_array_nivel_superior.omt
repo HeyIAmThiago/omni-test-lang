@@ -1,0 +1,4 @@
+test "atualizacao de papeis do usuario via array json":
+    let roles: Json = ["QA", "SDET", "Automation"]
+    let response: Response = POST "/users/roles" roles
+    assert response.status == 200

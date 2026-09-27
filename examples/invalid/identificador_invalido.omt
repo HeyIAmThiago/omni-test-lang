@@ -1,0 +1,3 @@
+test "identificador invalido":
+    let 2xResponse: Int = 5
+    assert 2xResponse == 5

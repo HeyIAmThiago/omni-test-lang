@@ -1,0 +1,8 @@
+test "payload json em múltiplas linhas físicas":
+    let payload: Json = {
+        "name": "Hugo Andrade",
+        "roles": ["QA", "SDET"],
+        "active": true
+    }
+    let response: Response = POST "/users" payload
+    assert response.status == 201

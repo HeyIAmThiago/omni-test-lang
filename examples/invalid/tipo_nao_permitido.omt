@@ -1,0 +1,3 @@
+test "tipo nao permitido":
+    let preco: Float = 10
+    assert preco == 10

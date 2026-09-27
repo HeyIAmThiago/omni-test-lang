@@ -1,0 +1,2 @@
+test "bloco sem indentacao":
+assert true

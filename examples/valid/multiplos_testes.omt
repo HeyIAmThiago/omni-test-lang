@@ -1,0 +1,9 @@
+test "primeiro cenario":
+    let response: Response = GET "/health"
+    assert response.status == 200
+
+test "segundo cenario":
+    let payload: Json = {"active": true}
+    let response: Response = POST "/toggle" payload
+    assert response.status == 200
+    assert response.body.active == true

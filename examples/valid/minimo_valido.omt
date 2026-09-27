@@ -1,0 +1,2 @@
+test "minimo":
+    assert true

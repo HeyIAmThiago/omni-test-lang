@@ -1,0 +1,4 @@
+test "dedent sem nivel correspondente":
+    let a: Int = 1
+    let b: Int = 2
+   assert a == 1

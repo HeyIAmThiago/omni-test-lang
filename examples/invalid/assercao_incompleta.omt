@@ -1,0 +1,3 @@
+test "assercao incompleta":
+    let a: Int = 5
+    assert
